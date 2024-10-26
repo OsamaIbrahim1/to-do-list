@@ -1,0 +1,45 @@
+.App {
+  border: 1px solid gray;
+  margin: 50px 30px;
+  padding: 25px 15px;
+}
+
+.to-do-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item span {
+  cursor: pointer;
+}
+
+.to-do-container ul li {
+  cursor: pointer;
+  width: 1000px;
+  margin: auto;
+  overflow-wrap: break-word;
+  list-style-type: "👉";
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+button {
+  background-color: rgb(137, 137, 137);
+  color: aliceblue;
+  border: none;
+  width: 200px;
+  margin: 20px;
+  padding: 5px 0px;
+}
+
+button:hover {
+  background-color: rgb(59, 59, 59);
+}
