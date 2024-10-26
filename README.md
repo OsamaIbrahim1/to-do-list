@@ -1,7 +1,7 @@
 # ToDo List
 this project ia a simple project by React
 
-you can write your task and click in this task to mark as compeleted task and can you remove this task from your list
+* you can write your task and click in this task to mark as compeleted task and can you remove this task from your list
 
 ## Available Scripts
 
